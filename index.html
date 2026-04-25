@@ -4,15 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="global.js" type="module"></script>
+  <script src="index.js" type="module" defer></script>
   <title>Raymond Wang: Personal site and portfolio</title>
 </head>
 <body>
-  <nav>
-    <a href="./">Home</a>
-    <a href="projects/">Projects</a>
-    <a href="contact/">Contact</a>
-    <a href="https://github.com/raymondWRW" target="_blank">GitHub</a>
-  </nav>
   <section>
     <h1>Raymond Wang</h1>
     <p>I am Raymond Wang, and this is my personal site and portfolio for DSC 106.</p>
@@ -23,6 +19,14 @@
       <p>My new favorite game is Slay the Spire, and I have just reached Ascension 10 with the new character, the Regent.</p>
       <img src="images/slaythespire.png" alt="Artwork from Slay the Spire, Raymond Wang's new favorite game.">
     </article>
+  </section>
+  <section>
+    <h2>Latest Projects</h2>
+    <div class="projects"></div>
+  </section>
+  <section>
+    <h2>GitHub Profile Stats</h2>
+    <div id="profile-stats"></div>
   </section>
 </body>
 </html>

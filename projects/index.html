@@ -4,99 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../style.css">
+  <script src="../global.js" type="module"></script>
+  <script src="projects.js" type="module"></script>
   <title>Projects</title>
 </head>
 <body>
-  <nav>
-    <a href="../">Home</a>
-    <a href="./">Projects</a>
-    <a href="../contact/">Contact</a>
-    <a href="https://github.com/raymondWRW" target="_blank">GitHub</a>
-  </nav>
   <section>
-    <h1>Projects</h1>
-    <p>This page highlights my academic background, technical skills, projects, and experience.</p>
-  </section>
-  <section>
-    <h2>Education</h2>
-    <article>
-      <header>
-        <h3>University of California San Diego</h3>
-        <p>La Jolla, California</p>
-        <p><time datetime="2022-09">September 2022</time> to <time datetime="2026-06">June 2026</time></p>
-      </header>
-      <p>Bachelor of Science in Data Science, GPA 3.489/4.0</p>
-      <p>Relevant coursework includes Principles of Data Science, Fundamentals of Data Science, Practice of Data Science, Data Analytics for Social Sciences, Human Genetics and Modern Society, Genetics, and Microeconomics.</p>
-    </article>
-  </section>
-  <section>
-    <h2>Achievements</h2>
-    <ul>
-      <li>Advanced to the Southern California International Collegiate Programming Contest Regional in 2022 and 2023</li>
-      <li>Second place in the Chinese Computer Club Competition</li>
-    </ul>
-  </section>
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Languages: Native in Chinese and English</li>
-      <li>Programming: C++, Python, pandas, PyTorch, Java, R, and C#</li>
-    </ul>
-  </section>
-  <section>
-    <h2>Projects</h2>
-    <article>
-      <header>
-        <h3>Chess Analysis</h3>
-        <p><time datetime="2023-06">June 2023</time></p>
-      </header>
-      <ul>
-        <li>Used a Kaggle dataset to analyze how different opening moves affect a player's win rate</li>
-        <li>Loaded, pruned, and cleaned the data into a more readable format with pandas</li>
-        <li>Visualized the results with charts and graphs</li>
-      </ul>
-      <p><a href="https://www.kaggle.com/code/rywang26/chess-first-move-analysis" target="_blank">View the Kaggle project</a></p>
-    </article>
-    <article>
-      <header>
-        <h3>Machine Learning Digit Recognition</h3>
-        <p><time datetime="2023-01">January 2023</time></p>
-      </header>
-      <ul>
-        <li>Built a handwritten digit recognition system with PyTorch and convolutional neural networks</li>
-        <li>Tested optimizers including SGD and Adam to compare training improvements</li>
-        <li>Applied preprocessing and hyperparameter tuning to improve model performance</li>
-        <li>Reached 99% accuracy on digit recognition</li>
-      </ul>
-      <p><a href="https://www.kaggle.com/rywang26/digit-recognizer" target="_blank">View the Kaggle project</a></p>
-    </article>
-    <article>
-      <header>
-        <h3>Texas Hold'em Game and AI</h3>
-        <p><time datetime="2022-12">December 2022</time></p>
-      </header>
-      <ul>
-        <li>Built a Texas Hold'em game in Python</li>
-        <li>Used object-oriented programming to improve code readability and structure</li>
-        <li>Created several AI opponents with different play strategies</li>
-      </ul>
-      <p><a href="https://github.com/raymondWRW/texas-bot" target="_blank">View the GitHub repository</a></p>
-    </article>
-  </section>
-  <section>
-    <h2>Experience</h2>
-    <article>
-      <header>
-        <h3>Competitive Programming at UC San Diego</h3>
-        <p><time datetime="2023-10">October 2023</time> to Present</p>
-      </header>
-      <ul>
-        <li>Create weekly programming problems with varying difficulty levels for students to solve</li>
-        <li>Teach students problem-solving strategies for each challenge</li>
-        <li>Help organize weekly sessions and special competitions</li>
-      </ul>
-      <p><a href="https://icpc.ucsd.edu" target="_blank">Visit the program website</a></p>
-    </article>
+    <h1 class="projects-title">Projects</h1>
+    <div class="projects"></div>
+    <p>Projects are loaded from a shared JSON data file.</p>
   </section>
 </body>
 </html>

@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Slay the Spire Build Planner",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a lightweight planning tool to compare deck paths and relic synergies for higher ascension runs."
+  },
+  {
+    "title": "Course Outcome Dashboard",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Created an interactive dashboard to track assignment completion, grades, and weekly study trends across classes."
+  },
+  {
+    "title": "Chess Opening Win Analysis",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analyzed a Kaggle chess dataset to study how opening choices affect outcomes by rating bracket and time control."
+  },
+  {
+    "title": "Digit Recognition with CNNs",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Trained and evaluated convolutional neural networks for handwritten digit recognition with strong validation accuracy."
+  },
+  {
+    "title": "Texas Hold'em Game AI",
+    "year": "2022",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Implemented a full poker simulation and several AI opponents with different betting and bluffing strategies."
+  },
+  {
+    "title": "Campus Event Recommender",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Prototyped a recommendation model that suggests student events from category preferences and attendance history."
+  },
+  {
+    "title": "Workout Log Analyzer",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed scripts to clean and visualize weekly training volume, intensity, and recovery indicators."
+  },
+  {
+    "title": "Competitive Programming Tracker",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a tracker for solved problems, topic coverage, and contest pacing to guide weekly practice goals."
+  },
+  {
+    "title": "Movie Sentiment Classifier",
+    "year": "2022",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Compared baseline and neural text models for binary sentiment classification and error analysis on review data."
+  },
+  {
+    "title": "Personal Finance Categorizer",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Created a rule-assisted transaction categorizer with monthly spending summaries and anomaly highlights."
+  },
+  {
+    "title": "Transit Delay Predictor",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Modeled bus delay risk from route, stop, and weather features to estimate likely late arrivals by hour."
+  },
+  {
+    "title": "Recipe Search Web App",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Implemented ingredient-based search, filtering, and saved favorites with a responsive front-end interface."
+  }
+]
