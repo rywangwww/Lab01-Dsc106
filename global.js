@@ -43,10 +43,19 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
     image.src = project.image ?? 'https://vis-society.github.io/labs/2/images/empty.svg';
     image.alt = project.title ?? 'Project image';
 
+    const details = document.createElement('div');
+    details.className = 'project-details';
+
     const description = document.createElement('p');
     description.textContent = project.description ?? '';
 
-    article.append(heading, image, description);
+    const year = document.createElement('p');
+    year.className = 'project-year';
+    year.textContent = project.year ?? '';
+
+    details.append(description, year);
+
+    article.append(heading, image, details);
     containerElement.append(article);
   }
 }
